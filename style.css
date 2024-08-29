@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+  height: 50vh;
+  width: 50%;
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin-left: 25%;
+  color: #000;
+}
+.main h1{
+  margin-left: 30px;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+.main #button{
+  width: 30%;
+  height: 40px;
+  margin-left: 35%;
+  margin-top: 10%;
+  border:none;
+  outline: none;
+  background-color: red;
+  color: #fff;
+  font-size: 21px;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+.main #button:hover{
+  background-color: yellow;
+  color: #000;
+  cursor: pointer;
+}
+.main .child{
+  height: 140px;
+  width: 97%;
+  margin-left: 1%;
+  margin-top: 3%;
+  background-color: #fff;
+
+}
